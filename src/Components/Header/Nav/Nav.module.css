@@ -1,0 +1,19 @@
+ul {
+  margin: 0;
+  display: inline-flex;
+}
+ul li {
+  list-style: none;
+  margin: 5px 10px;
+}
+ul li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+ul li a:active,
+ul li a:hover,
+ul li a.active {
+  color: whitesmoke;
+  text-decoration: none;
+}
